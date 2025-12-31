@@ -37,7 +37,7 @@ export default function Navbar() {
             GitHub
           </a>
           <a
-            href="/CV/Cv_Saber_Abderrafie.pdf"
+            href="/cv/Cv_Saber_Abderrafie.pdf"
             download
             className="rounded-lg bg-white/5 px-3 py-2 text-sm font-medium hover:bg-green-500 transition"
           >

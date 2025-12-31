@@ -50,7 +50,7 @@ export default function Contact() {
             GitHub
           </a>
           <a
-            href="/Cv_Saber_Abderrafie.pdf"
+            href="/cv/Cv_Saber_Abderrafie.pdf"
             download
             className="rounded-xl bg-green-600 px-4 py-2 text-sm font-medium hover:bg-green-800 transition"
           >
