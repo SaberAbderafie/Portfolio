@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Saber Abderrafie — Portfolio",
   description:
     "Portfolio de Saber Abderrafie — Développeur Web / Full-Stack (Next.js, React, Node, Python, SQL) avec focus qualité & sécurité.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.png" }],
   openGraph: {
     title: "Saber Abderrafie — Portfolio",
     description:
