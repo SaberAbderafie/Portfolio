@@ -1,13 +1,18 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getProjectBySlug } from "@/lib/data";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-type Props = { params: { slug: string } };
+export default async function ProjectDetailPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
-export default function ProjectDetailPage({ params }: Props) {
-  const project = getProjectBySlug(params.slug);
+  const project = getProjectBySlug(slug);
   if (!project) return notFound();
 
   return (
