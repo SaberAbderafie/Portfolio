@@ -20,7 +20,7 @@ export default function Hero() {
         <div className=" ">
           <p className="text-sm text-zinc-300/90">{profile.location}</p>
           <span className="mt-2 inline-flex w-fit items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-200/90">
-            Disponible : Stage 300h — 05-Janvier 2026 À 28-Février 2026
+            Ouvert aux opportunités — Développement logiciel Full Stack
           </span>
 
           <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
@@ -54,10 +54,10 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="mt-8 grid gap-3 md:grid-cols-3">
-            <Stat label="Focus" value="Full-Stack + Qualité" />
-            <Stat label="Stack" value="Next/React • SQL • AWS" />
-            <Stat label="Objectif" value="Stage 300h — Janvier 2026" />
+         <div className="mt-8 grid gap-3 md:grid-cols-3">
+            <Stat label="Spécialité" value="Développement Full Stack" />
+            <Stat label="Stack" value="React • Next.js • Python • AWS" />
+            <Stat label="Objectif" value="Poste en développement logiciel" />
           </div>
         </div>
       </div>

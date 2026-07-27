@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Saber Abderrafie — Portfolio",
   description:
-    "Portfolio de Saber Abderrafie — Développeur Web / Full-Stack (Next.js, React, Node, Python, SQL) avec focus qualité & sécurité.",
+    "Portfolio de Saber Abderrafie — Développeur logiciel Full Stack",
   icons: [{ rel: "icon", url: "/favicon.png" }],
   openGraph: {
     title: "Saber Abderrafie — Portfolio",

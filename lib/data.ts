@@ -1,15 +1,15 @@
 export const profile = {
   name: "Saber Abderrafie",
-  title: "Développeur Web / Full-Stack (Next.js, React, Node, Python, SQL)",
+  title: "Développeur logiciel Full Stack",
   location: "Saint-Zotique, QC",
   pitch:
-    "Je développe des applications web modernes (front/back) avec une approche qualité, architecture claire, et des bonnes pratiques sécurité (auth, rôles, OWASP).",
+    "Je conçois des applications web modernes, du front-end au back-end, avec React, Next.js, Node.js, Python, Django, PostgreSQL et AWS. Mon approche privilégie la qualité, la sécurité et une architecture facile à maintenir.",
   links: {
     github: "https://github.com/SaberAbderafie",
     linkedin: "https://www.linkedin.com/in/abderrafie-saber-65230b3a3/",
     email: "mailto:saberabderrafie@gmail.com",
     numero: "438-531-6360",
-    cv: "", // mets ton CV dans /public/cv.pdf
+    cv: "cv/Cv_Saber_Abderrafie.pdf", 
   },
 };
 
@@ -35,7 +35,7 @@ export const projects = [
     ],
     links: {
       code: "https://github.com/A25-PESLMDT/BDK",
-      demo: "/profil/stream.png", 
+      demo: "/profil/stream.png",
     },
   },
   {
@@ -85,14 +85,16 @@ export const projects = [
       "Cloud Firestore",
       "SharedPreferences",
     ],
-    highlights: ["Types de questions : QCM, Vrai/Faux, Réponse courte, QCM avec image",
-    "Modes : Normal, Rapide, Marathon, Survie, Défi quotidien (1 fois/jour)",
-    "Timer par question + score en temps réel + écran résultat + révision des erreurs",
-    "Thème clair/sombre + UI responsive (mobile/web) + effets visuels optionnels (neige)",],
+    highlights: [
+      "Types de questions : QCM, Vrai/Faux, Réponse courte, QCM avec image",
+      "Modes : Normal, Rapide, Marathon, Survie, Défi quotidien (1 fois/jour)",
+      "Timer par question + score en temps réel + écran résultat + révision des erreurs",
+      "Thème clair/sombre + UI responsive (mobile/web) + effets visuels optionnels (neige)",
+    ],
     links: {
       code: "https://github.com/SaberAbderafie/-QUIZ-MASTER---Application-de-Quiz-Multith-mes",
       demo: "",
-      video:"/Videos/Quiz.mp4",
+      video: "/Videos/Quiz.mp4",
     },
   },
 ];
@@ -106,15 +108,26 @@ export const projects = [
 // ];
 export const skills = [
   {
-    group: "Technologies",
-    items: ["React", "Tailwind CSS", "Flutter", "VirtualBox"],
+    group: "Front-end",
+    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
   },
-  { group: "Outils / Design", items: ["Git", "UI/UX Design", "PySide"] },
-  { group: "Langages", items: ["Python", "Java", "JavaScript", "TypeScript"] },
-  { group: "Web", items: ["HTML", "CSS", "Bootstrap", "Next.js"] },
-  { group: "Base de données", items: ["SQL", "Django", "Prisma"] },
+  {
+    group: "Back-end",
+    items: ["Node.js", "Python", "Django", "Flask", "API REST"],
+  },
+  {
+    group: "Données",
+    items: ["PostgreSQL", "SQL", "Prisma ORM", "SQLAlchemy"],
+  },
+  {
+    group: "Cloud et outils",
+    items: ["AWS", "Git", "GitHub", "Linux"],
+  },
+  {
+    group: "Mobile et qualité",
+    items: ["Flutter", "Dart", "Java", "OWASP", "Scrum"],
+  },
 ];
-
 export function getProjectBySlug(slug: string) {
   return projects.find((p) => p.slug === slug);
 }
